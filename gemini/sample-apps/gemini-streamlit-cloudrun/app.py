@@ -12,6 +12,7 @@ from vertexai.generative_models import (
 
 PROJECT_ID = os.environ.get("GCP_PROJECT")  # Your Google Cloud Project ID
 LOCATION = os.environ.get("GCP_REGION")  # Your Google Cloud Project Region
+
 vertexai.init(project=PROJECT_ID, location=LOCATION)
 
 
